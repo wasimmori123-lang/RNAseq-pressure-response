@@ -99,7 +99,15 @@ After filtering low-expression genes using `filterByExpr()` in edgeR:
 
 These results were similar to the original publication.
 
----
+## Figures
+
+### Volcano Plot
+
+![Volcano Plot](figures/Volcano_plot.png)
+
+### MA Plot
+
+![MA Plot](figures/tagcount_FDR.png)---
 
 ## Biological Interpretation
 
