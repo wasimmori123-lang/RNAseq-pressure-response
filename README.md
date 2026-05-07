@@ -166,28 +166,6 @@ Filtered differentially expressed genes.
 
 MA plot generated using edgeR.
 
-## Figures
-
-### Volcano Plot
-
-Differentially expressed genes between low-pressure (LP) and high-pressure (HP) conditions.
-
-- Red: significantly upregulated genes
-- Blue: significantly downregulated genes
-- Grey: non-significant genes
-
-![Volcano Plot](figures/Volcano_plot.png)
-
----
-
-### MA Plot
-
-MA plot generated from edgeR differential expression analysis.
-
-![MA Plot](figures/tagcount_FDR.png)
-
----
-
 ## Purpose of This Project
 
 This project was conducted to improve practical skills in:
