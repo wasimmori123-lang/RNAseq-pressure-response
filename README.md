@@ -99,16 +99,6 @@ After filtering low-expression genes using `filterByExpr()` in edgeR:
 
 These results were similar to the original publication.
 
-## Figures
-
-### Volcano Plot
-
-![Volcano Plot](figures/Volcano_plot.png)
-
-### MA Plot
-
-![MA Plot](figures/tagcount_FDR.png)---
-
 ## Biological Interpretation
 
 The results suggest that mild hydrostatic pressure induces strong oxidative stress responses in *E. coli*.
@@ -188,7 +178,27 @@ This project was conducted to improve practical skills in:
 - statistical analysis of gene expression data
 
 ---
+## Figures
 
+### Volcano Plot
+
+Differentially expressed genes between low-pressure (LP) and high-pressure (HP) conditions.
+
+- Red: upregulated genes
+- Blue: downregulated genes
+- Grey: non-significant genes
+
+![Volcano Plot](figures/Volcano_plot.png)
+
+---
+
+### MA Plot
+
+MA plot generated from edgeR differential expression analysis.
+
+![MA Plot](figures/tagcount_FDR.png)
+
+---
 ## Reference
 
 Guyet A, Dade-Robertson M, Wipat A, Casement J, Smith W, Mitrani H, Zhang M.  
